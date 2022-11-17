@@ -14,7 +14,7 @@ const functionCall = new Piscina({
 	),
 });
 
-await Promise.allSettled([
+await Promise.all([
 	await calculation.run({}),
 	await functionCall.run({}),
 	await calculation.run({}),

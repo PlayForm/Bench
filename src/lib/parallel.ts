@@ -1,7 +1,7 @@
 import calculation from "./../test/calculation.js";
 import functionCall from "./../test/function-call.js";
 
-await Promise.allSettled([
+await Promise.all([
 	await calculation(),
 	await functionCall(),
 	await calculation(),
