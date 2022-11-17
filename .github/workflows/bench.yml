@@ -53,7 +53,7 @@ jobs:
               working-directory: .
 
             # Setup Rust
-            - uses: actions-rs/toolchain@v1.0.3
+            - uses: actions-rs/toolchain@v1.0.7
               with:
                   profile: minimal
                   toolchain: ${{ matrix.toolchain }}
