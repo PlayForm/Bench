@@ -1,3 +1,3 @@
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/parallel-no-await.js` | 7.750 ± 0.233 | 7.593 | 8.018 | 1.00 |
+| `node ./dist/lib/parallel-no-await.js` | 12.532 ± 0.004 | 12.529 | 12.536 | 1.00 |
