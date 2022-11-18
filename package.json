@@ -1,10 +1,6 @@
 {
 	"type": "module",
-	"private": "true",
-	"packageManager": "pnpm@7.16.1",
-	"engines": {
-		"node": ">=14"
-	},
+	"private": true,
 	"scripts": {
 		"bench": "pnpm run build && bash bench.sh",
 		"build": "lightrix build src/**/*.ts",
