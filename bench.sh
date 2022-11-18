@@ -1,32 +1,38 @@
 #!/bin/bash
 
 hyperfine \
-	--warmup 3 \
+	--runs 2 \
+	--warmup 2 \
 	--export-markdown ./bench/parallel.md \
 	'node ./dist/lib/parallel.js'
 
 hyperfine \
-	--warmup 3 \
+	--runs 2 \
+	--warmup 2 \
 	--export-markdown ./bench/piscina.md \
 	'node ./dist/lib/piscina.js'
 
 hyperfine \
-	--warmup 3 \
+	--runs 2 \
+	--warmup 2 \
 	--export-markdown ./bench/serial.md \
 	'node ./dist/lib/serial.js'
 
 hyperfine \
-	--warmup 3 \
+	--runs 2 \
+	--warmup 2 \
 	--export-markdown ./bench/parallel-no-await.md \
 	'node ./dist/lib/parallel-no-await.js'
 
 hyperfine \
-	--warmup 3 \
+	--runs 2 \
+	--warmup 2 \
 	--export-markdown ./bench/piscina-no-await.md \
 	'node ./dist/lib/piscina-no-await.js'
 
 hyperfine \
-	--warmup 3 \
+	--runs 2 \
+	--warmup 2 \
 	--export-markdown ./bench/serial-no-await.md \
 	'node ./dist/lib/serial-no-await.js'
 

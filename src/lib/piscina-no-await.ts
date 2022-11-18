@@ -6,14 +6,14 @@ const __filename = fileURLToPath(import.meta.url);
 
 const calculation = new Piscina({
 	filename: resolve(`${dirname(__filename)}/../../dist/test/calculation.js`),
-	concurrentTasksPerWorker: 5,
+	concurrentTasksPerWorker: 2,
 });
 
 const functionCall = new Piscina({
 	filename: resolve(
 		`${dirname(__filename)}/../../dist/test/function-call.js`
 	),
-	concurrentTasksPerWorker: 5,
+	concurrentTasksPerWorker: 2,
 });
 
 await Promise.all([
