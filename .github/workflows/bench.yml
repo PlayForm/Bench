@@ -87,6 +87,6 @@ jobs:
                   git add bench/
                   git add README.md
                   git config --global user.name 'Bench'
-                  git config --global user.email 'bench@nikolahristov.tech '
-                  git commit -m "Auto Bench: $(git log -1 --pretty=%h) $(git log -1 --pretty=%B)"
+                  git config --global user.email 'bench@nikolahristov.tech'
+                  git commit -m "Auto Bench $(git log -1 --pretty=%h) $(git log -1 --pretty=%B)"
                   git push
