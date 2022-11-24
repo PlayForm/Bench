@@ -1,3 +1,3 @@
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/serial.js` | 12.309 ± 0.136 | 12.213 | 12.405 | 1.00 |
+| `node ./dist/lib/serial.js` | 11.912 ± 0.327 | 11.681 | 12.143 | 1.00 |
