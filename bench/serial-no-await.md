@@ -1,3 +1,3 @@
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/serial-no-await.js` | 13.660 ± 0.093 | 13.594 | 13.726 | 1.00 |
+| `node ./dist/lib/serial-no-await.js` | 11.452 ± 0.002 | 11.451 | 11.454 | 1.00 |
