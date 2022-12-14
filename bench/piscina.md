@@ -1,3 +1,3 @@
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
-|:---|---:|---:|---:|---:|
-| `node ./dist/lib/piscina.js` | 12.737 ± 0.001 | 12.737 | 12.738 | 1.00 |
+| Command                      |       Mean [s] | Min [s] | Max [s] | Relative |
+| :--------------------------- | -------------: | ------: | ------: | -------: |
+| `node ./dist/lib/piscina.js` | 12.737 ± 0.001 |  12.737 |  12.738 |     1.00 |
