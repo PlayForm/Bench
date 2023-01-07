@@ -3,29 +3,29 @@
 ## Parallel
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/parallel.js` | 12.817 ± 0.358 | 12.563 | 13.070 | 1.00 |
+| `node ./dist/lib/parallel.js` | 13.549 ± 0.039 | 13.521 | 13.577 | 1.00 |
 
 ## Piscina
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/piscina.js` | 12.290 ± 0.156 | 12.180 | 12.400 | 1.00 |
+| `node ./dist/lib/piscina.js` | 13.774 ± 0.144 | 13.672 | 13.876 | 1.00 |
 
 ## Serial
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/serial.js` | 12.244 ± 0.152 | 12.137 | 12.352 | 1.00 |
+| `node ./dist/lib/serial.js` | 13.645 ± 0.003 | 13.643 | 13.647 | 1.00 |
 
 ## Parallel No Await
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/parallel-no-await.js` | 12.310 ± 0.441 | 11.998 | 12.622 | 1.00 |
+| `node ./dist/lib/parallel-no-await.js` | 13.526 ± 0.084 | 13.467 | 13.586 | 1.00 |
 
 ## Piscina No Await
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/piscina-no-await.js` | 7.489 ± 0.090 | 7.426 | 7.553 | 1.00 |
+| `node ./dist/lib/piscina-no-await.js` | 10.164 ± 0.203 | 10.021 | 10.307 | 1.00 |
 
 ## Serial No Await
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/serial-no-await.js` | 12.165 ± 0.105 | 12.091 | 12.239 | 1.00 |
+| `node ./dist/lib/serial-no-await.js` | 13.557 ± 0.070 | 13.508 | 13.606 | 1.00 |
