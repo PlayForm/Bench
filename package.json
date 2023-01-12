@@ -1,4 +1,5 @@
 {
+	"name": "bench-piscina",
 	"type": "module",
 	"private": true,
 	"scripts": {
