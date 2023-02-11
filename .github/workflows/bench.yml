@@ -76,6 +76,7 @@ jobs:
               id: download
               with:
                   name: .-node-${{ matrix.node-version }}-dist
+                  path: ./dist
 
             # Run the benchmark
             - run: |
