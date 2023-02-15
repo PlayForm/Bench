@@ -22,8 +22,7 @@ jobs:
             matrix:
                 node-version: [18]
                 toolchain: ["nightly"]
-                platform: ["ubuntu-latest"]
-        runs-on: ${{ matrix.platform }}
+        runs-on: [self-hosted, ubuntu-latest]
         steps:
             - uses: actions/checkout@v3.3.0
 
