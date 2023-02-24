@@ -1,1 +1,0 @@
-import*as e from"fs";var l=async()=>{let t=0;for(;t<1e9;)t++;return console.info(`All is well. ${(await e.promises.readFile("./dist/test/calculation.js")).byteLength} bytes`),!0};export{l as default};
