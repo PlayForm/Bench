@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 export default async () => {
-	// rome-ignore lint/nursery/noPrecisionLoss:
+
 	const count = 1000000000;
 	let i = 0;
 
