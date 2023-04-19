@@ -1,7 +1,6 @@
-import * as fs from "fs";
+import { readFile } from "fs/promises";
 
 export default async () => {
-
 	const count = 1000000000;
 	let i = 0;
 
@@ -11,8 +10,7 @@ export default async () => {
 
 	console.info(
 		`All is well. ${
-			(await fs.promises.readFile("./dist/test/calculation.js"))
-				.byteLength
+			(await readFile("./dist/test/calculation.js")).byteLength
 		} bytes`
 	);
 
