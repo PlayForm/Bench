@@ -21,6 +21,7 @@
 		"ts-node": "10.9.1"
 	},
 	"publishConfig": {
+		"provenance": true,
 		"access": "restricted"
 	}
 }
