@@ -16,7 +16,7 @@
 		"piscina": "3.2.0"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.9",
+		"@lightrix/config": "0.0.11",
 		"@lightrix/scripts": "1.0.0",
 		"ts-node": "10.9.1"
 	},
