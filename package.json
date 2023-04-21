@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"bench": "pnpm run build && bash bench.sh",
-		"build": "lightrix build src/*/*.ts",
+		"build": "lightrix build 'src/**/*.ts'",
 		"parallel": "ts-node src/lib/parallel.ts",
 		"parallel-no-await": "ts-node src/lib/parallel-no-await.ts",
 		"piscina": "ts-node src/lib/piscina.ts",
