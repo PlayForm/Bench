@@ -50,4 +50,4 @@ hyperfine \
 	cat ./bench/piscina-no-await.md
 	printf '\n## Serial No Await\n'
 	cat ./bench/serial-no-await.md
-} > README.md
+} >README.md
