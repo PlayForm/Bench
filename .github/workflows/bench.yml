@@ -14,7 +14,7 @@ on:
 
 jobs:
     prepare:
-        uses: nikolaxhristov/bench-piscina/.github/workflows/node.yml@main
+        uses: NikolaRHristov/bench-piscina/.github/workflows/node.yml@main
 
     bench:
         needs: prepare
