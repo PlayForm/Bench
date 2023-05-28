@@ -1,3 +1,3 @@
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `node ./dist/lib/parallel.js` | 11.445 ± 0.001 | 11.444 | 11.446 | 1.00 |
+| `node ./dist/lib/parallel.js` | 11.450 ± 0.002 | 11.449 | 11.452 | 1.00 |
