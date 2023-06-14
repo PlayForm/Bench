@@ -13,7 +13,7 @@
 		"serial-no-await": "ts-node src/lib/serial-no-await.ts"
 	},
 	"dependencies": {
-		"piscina": "3.2.0"
+		"piscina": "4.0.0"
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.11",
