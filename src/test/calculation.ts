@@ -11,7 +11,7 @@ export default async () => {
 	console.info(
 		`All is well. ${
 			(await readFile("./dist/test/calculation.js")).byteLength
-		} bytes`
+		} bytes`,
 	);
 
 	return true;
