@@ -1,7 +1,7 @@
 {
 	"name": "bench-piscina",
-	"type": "module",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"bench": "pnpm run build && bash bench.sh",
 		"parallel": "ts-node src/lib/parallel.ts",
