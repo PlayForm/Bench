@@ -1,1 +1,0 @@
-import o from"../test/function-call.js";import i from"../test/calculation.js";i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o(),i(),o();
