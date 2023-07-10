@@ -1,0 +1,1 @@
+import o from"../test/function-call.js";import a from"../test/calculation.js";await Promise.all([a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o(),a(),o()]);
