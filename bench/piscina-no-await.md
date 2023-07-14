@@ -1,3 +1,3 @@
-| Command                               |      Mean [s] | Min [s] | Max [s] | Relative |
-| :------------------------------------ | ------------: | ------: | ------: | -------: |
-| `node ./dist/lib/piscina-no-await.js` | 7.614 ± 0.013 |   7.605 |   7.623 |     1.00 |
+| Command | Mean [s] | Min [s] | Max [s] | Relative |
+|:---|---:|---:|---:|---:|
+| `node ./dist/lib/piscina-no-await.js` | 7.920 ± 0.471 | 7.587 | 8.254 | 1.00 |
