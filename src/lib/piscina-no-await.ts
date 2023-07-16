@@ -11,7 +11,9 @@ const calculation = new Piscina({
 });
 
 const functionCall = new Piscina({
-	filename: resolve(`${dirname(__filename)}/../../dist/test/function-call.js`),
+	filename: resolve(
+		`${dirname(__filename)}/../../dist/test/function-call.js`
+	),
 
 	concurrentTasksPerWorker: 10.0,
 });
