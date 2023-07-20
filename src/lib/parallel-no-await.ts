@@ -1,5 +1,5 @@
-import functionCall from "../test/function-call.js";
 import calculation from "../test/calculation.js";
+import functionCall from "../test/function-call.js";
 
 await Promise.all([
 	calculation(),

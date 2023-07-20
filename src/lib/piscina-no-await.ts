@@ -1,7 +1,7 @@
 // @ts-ignore
 import { dirname, resolve } from "path";
-import { fileURLToPath } from "url";
 import Piscina from "piscina";
+import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 
 const calculation = new Piscina({
