@@ -3,5 +3,8 @@ name = "bench-piscina"
 version = "0.1.0"
 edition = "2021"
 
+[build]
+target-dir = "Target"
+
 [dependencies]
 hyperfine = "1.17.0"

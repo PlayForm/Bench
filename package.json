@@ -8,7 +8,7 @@
 		"parallel-no-await": "ts-node src/lib/parallel-no-await.ts",
 		"piscina": "ts-node src/lib/piscina.ts",
 		"piscina-no-await": "ts-node src/lib/piscina-no-await.ts",
-		"prepublishOnly": "lightrix build 'src/**/*.ts'",
+		"prepublishOnly": "lightrix build 'Source/**/*.ts'",
 		"serial": "ts-node src/lib/serial.ts",
 		"serial-no-await": "ts-node src/lib/serial-no-await.ts"
 	},
