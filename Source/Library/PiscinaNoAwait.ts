@@ -4,12 +4,12 @@ import { fileURLToPath as Path } from "url";
 const NameFile = Path(import.meta.url);
 
 const Calculation = new Piscina({
-	filename: Resolve(`${Dir(NameFile)}/../../dist/test/calculation.js`),
+	filename: Resolve(`${Dir(NameFile)}/../../Target/test/calculation.js`),
 	concurrentTasksPerWorker: 10.0,
 });
 
 const Fn = new Piscina({
-	filename: Resolve(`${Dir(NameFile)}/../../dist/test/function-call.js`),
+	filename: Resolve(`${Dir(NameFile)}/../../Target/test/function-call.js`),
 	concurrentTasksPerWorker: 10.0,
 });
 

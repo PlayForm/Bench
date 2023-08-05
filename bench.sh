@@ -4,37 +4,37 @@ hyperfine \
 	--runs 2 \
 	--warmup 2 \
 	--export-markdown ./bench/parallel.md \
-	'node ./dist/lib/parallel.js'
+	'node ./Target/lib/parallel.js'
 
 hyperfine \
 	--runs 2 \
 	--warmup 2 \
 	--export-markdown ./bench/piscina.md \
-	'node ./dist/lib/piscina.js'
+	'node ./Target/lib/piscina.js'
 
 hyperfine \
 	--runs 2 \
 	--warmup 2 \
 	--export-markdown ./bench/serial.md \
-	'node ./dist/lib/serial.js'
+	'node ./Target/lib/serial.js'
 
 hyperfine \
 	--runs 2 \
 	--warmup 2 \
 	--export-markdown ./bench/parallel-no-await.md \
-	'node ./dist/lib/parallel-no-await.js'
+	'node ./Target/lib/parallel-no-await.js'
 
 hyperfine \
 	--runs 2 \
 	--warmup 2 \
 	--export-markdown ./bench/piscina-no-await.md \
-	'node ./dist/lib/piscina-no-await.js'
+	'node ./Target/lib/piscina-no-await.js'
 
 hyperfine \
 	--runs 2 \
 	--warmup 2 \
 	--export-markdown ./bench/serial-no-await.md \
-	'node ./dist/lib/serial-no-await.js'
+	'node ./Target/lib/serial-no-await.js'
 
 {
 	printf '# parallel-piscina-benchmark\n'

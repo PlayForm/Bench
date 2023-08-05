@@ -75,8 +75,8 @@ jobs:
             - uses: actions/download-artifact@v3.0.2
               id: download
               with:
-                  name: .-node-${{ matrix.node-version }}-dist
-                  path: ./dist
+                  name: .-node-${{ matrix.node-version }}-Target
+                  path: ./Target
 
             # Run the benchmark
             - run: |
