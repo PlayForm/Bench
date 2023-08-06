@@ -4,13 +4,13 @@
 	"type": "module",
 	"scripts": {
 		"bench": "pnpm run build && bash bench.sh",
-		"parallel": "ts-node src/lib/parallel.ts",
-		"parallel-no-await": "ts-node src/lib/parallel-no-await.ts",
-		"piscina": "ts-node src/lib/piscina.ts",
-		"piscina-no-await": "ts-node src/lib/piscina-no-await.ts",
+		"parallel": "ts-node Source/lib/parallel.ts",
+		"parallel-no-await": "ts-node Source/lib/parallel-no-await.ts",
+		"piscina": "ts-node Source/lib/piscina.ts",
+		"piscina-no-await": "ts-node Source/lib/piscina-no-await.ts",
 		"prepublishOnly": "lightrix build 'Source/**/*.ts'",
-		"serial": "ts-node src/lib/serial.ts",
-		"serial-no-await": "ts-node src/lib/serial-no-await.ts"
+		"serial": "ts-node Source/lib/serial.ts",
+		"serial-no-await": "ts-node Source/lib/serial-no-await.ts"
 	},
 	"dependencies": {
 		"piscina": "4.1.0"
