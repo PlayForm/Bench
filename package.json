@@ -1,6 +1,5 @@
 {
 	"name": "bench-piscina",
-	"private": true,
 	"type": "module",
 	"scripts": {
 		"bench": "pnpm run build && bash bench.sh",
@@ -19,8 +18,5 @@
 		"@lightrix/configuration": "0.0.1",
 		"@lightrix/script": "0.0.1",
 		"ts-node": "10.9.1"
-	},
-	"publishConfig": {
-		"access": "restricted"
 	}
 }
