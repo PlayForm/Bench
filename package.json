@@ -1,5 +1,6 @@
 {
 	"name": "bench-piscina",
+	"license": "MIT",
 	"type": "module",
 	"scripts": {
 		"bench": "pnpm run build && bash bench.sh",
