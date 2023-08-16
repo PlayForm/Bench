@@ -7,7 +7,7 @@
 		"parallel-no-await": "ts-node Source/lib/parallel-no-await.ts",
 		"piscina": "ts-node Source/lib/piscina.ts",
 		"piscina-no-await": "ts-node Source/lib/piscina-no-await.ts",
-		"prepublishOnly": "Lightrix build 'Source/**/*.ts'",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
 		"serial": "ts-node Source/lib/serial.ts",
 		"serial-no-await": "ts-node Source/lib/serial-no-await.ts"
 	},
@@ -15,6 +15,7 @@
 		"piscina": "4.1.0"
 	},
 	"devDependencies": {
-		"ts-node": "10.9.1"
+		"ts-node": "10.9.1",
+		"typescript-esbuild": "0.1.13"
 	}
 }

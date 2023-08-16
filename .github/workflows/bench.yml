@@ -14,7 +14,7 @@ on:
 
 jobs:
     prepare:
-        uses: NikolaRHristov/bench-piscina/.github/workflows/node.yml@main
+        uses: NikolaRHristov/bench-piscina/.github/workflows/Node.yml@main
 
     bench:
         needs: prepare
@@ -71,7 +71,7 @@ jobs:
                   crate: hyperfine
                   use-tool-cache: true
 
-            # Download the production build from node.yml
+            # Download the production build from Node.yml
             - uses: actions/download-artifact@v3.0.2
               id: download
               with:
