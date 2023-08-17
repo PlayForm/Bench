@@ -1,6 +1,6 @@
 {
 	"name": "bench-piscina",
-	"private": "false",
+	"private": false,
 	"license": "MIT",
 	"author": {
 		"name": "Nikola Hristov",
