@@ -2,13 +2,13 @@ import { dirname as Dir, resolve as Resolve } from "path";
 import Piscina from "piscina";
 import { fileURLToPath as Path } from "url";
 
-const Current = Path(import.meta.url);
+export const Current = Path(import.meta.url);
 
-const Calculation = new Piscina({
+export const Calculation = new Piscina({
 	filename: Resolve(`${Dir(Current)}/../../Target/test/calculation.js`),
 });
 
-const _Function = new Piscina({
+export const _Function = new Piscina({
 	filename: Resolve(`${Dir(Current)}/../../Target/test/function-call.js`),
 });
 
