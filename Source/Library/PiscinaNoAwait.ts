@@ -1,16 +1,16 @@
-import { dirname as Dir, resolve as Resolve } from "path";
-import Piscina from "piscina";
-import { fileURLToPath as Path } from "url";
+export const { dirname, resolve } = await import("path");
 
-export const NameFile = Path(import.meta.url);
+export const { default: Piscina } = await import("piscina");
+
+export const File = (await import("url")).fileURLToPath(import.meta.url);
 
 export const Calculation = new Piscina({
-	filename: Resolve(`${Dir(NameFile)}/../../Target/test/calculation.js`),
+	filename: resolve(`${dirname(File)}/../../Target/test/calculation.js`),
 	concurrentTasksPerWorker: 10.0,
 });
 
 export const _Function = new Piscina({
-	filename: Resolve(`${Dir(NameFile)}/../../Target/test/function-call.js`),
+	filename: resolve(`${dirname(File)}/../../Target/test/function-call.js`),
 	concurrentTasksPerWorker: 10.0,
 });
 

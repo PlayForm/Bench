@@ -1,16 +1,18 @@
-import { readFile } from "fs/promises";
-
 export default async () => {
-	const count = 1000000000;
-	let i = 0;
+	const Count = 1000000000;
+	let Index = 0;
 
-	while (i < count) {
-		i++;
+	while (Index < Count) {
+		Index++;
 	}
 
 	console.info(
 		`All is well. ${
-			(await readFile("./Target/test/calculation.js")).byteLength
+			(
+				await (
+					await import("fs/promises")
+				).readFile("./Target/test/calculation.js")
+			).byteLength
 		} bytes`
 	);
 
