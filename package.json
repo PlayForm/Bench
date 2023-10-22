@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"ts-node": "10.9.1",
-		"typescript-esbuild": "0.2.24"
+		"typescript-esbuild": "0.2.25"
 	},
 	"publishConfig": {
 		"access": "public"
