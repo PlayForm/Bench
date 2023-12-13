@@ -19,7 +19,7 @@
 		"serial-no-await": "ts-node Source/lib/serial-no-await.ts"
 	},
 	"dependencies": {
-		"piscina": "4.2.0"
+		"piscina": "4.2.1"
 	},
 	"devDependencies": {
 		"ts-node": "10.9.2",
