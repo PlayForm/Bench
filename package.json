@@ -9,6 +9,7 @@
 	},
 	"type": "module",
 	"scripts": {
+		"Document": "TypeScriptDocument 'Source/**/*.ts'",
 		"bench": "pnpm run build && bash bench.sh",
 		"parallel": "ts-node Source/lib/parallel.ts",
 		"parallel-no-await": "ts-node Source/lib/parallel-no-await.ts",
@@ -23,6 +24,7 @@
 	},
 	"devDependencies": {
 		"ts-node": "10.9.2",
+		"typescript-document": "0.0.2",
 		"typescript-esbuild": "0.4.3"
 	},
 	"publishConfig": {
