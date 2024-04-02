@@ -23,8 +23,8 @@
 		"piscina": "4.4.0"
 	},
 	"devDependencies": {
-		"ts-node": "10.9.2",
-		"@playform/build": "0.0.1"
+		"@playform/build": "0.0.1",
+		"ts-node": "10.9.2"
 	},
 	"optionalDependencies": {
 		"@playform/document": "0.0.2"
