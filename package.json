@@ -15,7 +15,7 @@
 		"parallel-no-await": "ts-node Source/lib/parallel-no-await.ts",
 		"piscina": "ts-node Source/lib/piscina.ts",
 		"piscina-no-await": "ts-node Source/lib/piscina-no-await.ts",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"Build": "Build 'Source/**/*.ts'",
 		"serial": "ts-node Source/lib/serial.ts",
 		"serial-no-await": "ts-node Source/lib/serial-no-await.ts"
 	},
