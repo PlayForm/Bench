@@ -24,9 +24,7 @@
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.2",
-		"ts-node": "10.9.2"
-	},
-	"optionalDependencies": {
+		"ts-node": "10.9.2",
 		"@playform/document": "0.0.3"
 	},
 	"publishConfig": {
