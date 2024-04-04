@@ -9,7 +9,6 @@
 	},
 	"type": "module",
 	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
 		"bench": "pnpm run build && bash bench.sh",
 		"parallel": "ts-node Source/lib/parallel.ts",
 		"parallel-no-await": "ts-node Source/lib/parallel-no-await.ts",
@@ -23,9 +22,8 @@
 		"piscina": "4.4.0"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.2",
-		"ts-node": "10.9.2",
-		"@playform/document": "0.0.3"
+		"@playform/build": "0.0.5",
+		"ts-node": "10.9.2"
 	},
 	"publishConfig": {
 		"access": "public"
