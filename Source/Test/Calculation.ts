@@ -11,9 +11,9 @@ export default async () => {
 			(
 				await (
 					await import("fs/promises")
-				).readFile("./Target/test/calculation.js")
+				).readFile("@Target/Test/Calculation.js")
 			).byteLength
-		} bytes`,
+		} bytes`
 	);
 
 	return true;
